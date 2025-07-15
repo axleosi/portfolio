@@ -5,21 +5,31 @@ import ProjectCard from "./ProjectCard";
 const projects = [
   {
     id: 1,
+    title: "Real-Time Chat App",
+    description: "A real-time chat application with instant messaging, friend management, and online presence tracking.",
+    techStack: ["Flutter", "Express JS", "MongoDB", "Socket.IO", "JWT Auth"],
+    githubUrl: "https://github.com/axleosi/chatroom-app",
+    demoUrl: "https://chatroom-app1.web.app/",
+    imageUrls: ["/chatapp1.png", "/chatapp2.png", "/chatapp3.png", "/chatapp4.png"]
+  },
+
+  {
+    id: 2,
     title: "E-Commerce Site",
     description: "A responsive user-friendly E-commerce site with an admin panel.",
     techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Express JS", "Mongo DB"],
     githubUrl: "https://github.com/axleosi/jaded-label.git",
     demoUrl: "https://jaded-label.vercel.app/",
-    imageUrls: ["/jadedlabel.png","/jadedlabel2.png","/jadedlabel3.png","/jadedlabel4.png","/jadedlabel5.png","/jadedlabel6.png","/jadedlabel7.png",]
+    imageUrls: ["/jadedlabel.png", "/jadedlabel2.png", "/jadedlabel3.png", "/jadedlabel4.png", "/jadedlabel5.png", "/jadedlabel6.png", "/jadedlabel7.png",]
   },
   {
-    id: 2,
+    id: 3,
     title: "Todo App",
     description: "A responsive full stack todo app with light and dark mode as well as filtering.",
     techStack: ["Next.js", "Tailwind CSS", "TypeScript", "Express JS", "Mongo DB"],
     githubUrl: "https://github.com/axleosi/todo-list.git",
     demoUrl: "https://todo-list1-virid.vercel.app",
-    imageUrls: ["/todo.png","/todo2.png","/todo3.png","/todo4.png","/todo5.png"]
+    imageUrls: ["/todo.png", "/todo2.png", "/todo3.png", "/todo4.png", "/todo5.png"]
   },
 ];
 

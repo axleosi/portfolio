@@ -3,6 +3,14 @@ import ProjectCard from "../components/ProjectCard";
 
 const projects = [
   {
+    title: "Real-Time Chat App",
+    description: "A real-time chat application with instant messaging, friend management, and online presence tracking.",
+    techStack: ["Flutter", "Express JS", "MongoDB", "Socket.IO", "JWT Auth"],
+    githubUrl: "https://github.com/axleosi/chatroom-app",
+    demoUrl: "https://chatroom-app1.web.app/",
+    imageUrls: ["/chatapp1.png", "/chatapp2.png", "/chatapp3.png", "/chatapp4.png"]
+  },
+  {
     title: "E-Commerce Website",
     description: "A responsive full stack user-friendly E-commerce site with an admin panel.",
     techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Express JS", "Mongo DB"],
