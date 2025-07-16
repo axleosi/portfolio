@@ -4,7 +4,7 @@ import {
 } from 'react-icons/fa';
 import {
   SiJavascript, SiTypescript, SiTailwindcss, SiMongodb,
-  SiPostgresql, SiNextdotjs, SiExpress
+  SiPostgresql, SiNextdotjs, SiExpress, SiFlutter, SiSocketdotio
 } from 'react-icons/si';
 import { IconType } from 'react-icons';
 
@@ -19,7 +19,6 @@ const Skills = () => {
   return (
     <section id="skills" className="bg-gray-50 py-12 px-4">
       <div className="max-w-6xl mx-auto">
-
         <div className="flex flex-col gap-24">
           {/* Frontend */}
           <div>
@@ -32,6 +31,7 @@ const Skills = () => {
               <SkillItem icon={FaReact} name="React" />
               <SkillItem icon={SiNextdotjs} name="Next.js" />
               <SkillItem icon={SiTailwindcss} name="Tailwind" />
+              <SkillItem icon={SiFlutter} name="Flutter" />
             </div>
           </div>
 
@@ -41,6 +41,7 @@ const Skills = () => {
             <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-6">
               <SkillItem icon={FaNodeJs} name="Node.js" />
               <SkillItem icon={SiExpress} name="Express.js" />
+              <SkillItem icon={SiSocketdotio} name="Socket.IO" />
             </div>
           </div>
 
