@@ -12,9 +12,18 @@ const projects = [
     demoUrl: "https://chatroom-app1.web.app/",
     imageUrls: ["/chatapp1.png", "/chatapp2.png", "/chatapp3.png", "/chatapp4.png"]
   },
-
   {
     id: 2,
+    title: "Color Picker App",
+    description: "A Flutter app that generates random colors, shows HEX codes, lets users copy them, save favorites, and share. It includes color history, favorites, and a lock feature to preserve the current color.",
+    techStack: ["Flutter", "Dart"],
+    githubUrl: "https://github.com/axleosi/color-picker.git",
+    demoUrl: "https://colorpickerapp1.web.app/",
+    imageUrls: ["/color1.png", "/color2.png",]
+  },
+
+  {
+    id: 3,
     title: "E-Commerce Site",
     description: "A responsive user-friendly E-commerce site with an admin panel.",
     techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Express JS", "Mongo DB"],
@@ -23,7 +32,7 @@ const projects = [
     imageUrls: ["/jadedlabel.png", "/jadedlabel2.png", "/jadedlabel3.png", "/jadedlabel4.png", "/jadedlabel5.png", "/jadedlabel6.png", "/jadedlabel7.png",]
   },
   {
-    id: 3,
+    id: 4,
     title: "Todo App",
     description: "A responsive full stack todo app with light and dark mode as well as filtering.",
     techStack: ["Next.js", "Tailwind CSS", "TypeScript", "Express JS", "Mongo DB"],

@@ -16,7 +16,7 @@ const projects = [
     techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Express JS", "Mongo DB"],
     githubUrl: "https://github.com/axleosi/jaded-label.git",
     demoUrl: "https://jaded-label.vercel.app/",
-    imageUrls: ["/jadedlabel.png","/jadedlabel2.png","/jadedlabel3.png","/jadedlabel4.png","/jadedlabel5.png","/jadedlabel6.png","/jadedlabel7.png",]
+    imageUrls: ["/jadedlabel.png", "/jadedlabel2.png", "/jadedlabel3.png", "/jadedlabel4.png", "/jadedlabel5.png", "/jadedlabel6.png", "/jadedlabel7.png",]
   },
   {
     title: "Todo App",
@@ -24,7 +24,15 @@ const projects = [
     techStack: ["Next.js", "Tailwind CSS", "TypeScript", "Express JS", "Mongo DB"],
     githubUrl: "https://github.com/axleosi/todo-list.git",
     demoUrl: "https://todo-list1-virid.vercel.app",
-    imageUrls: ["/todo.png","/todo2.png","/todo3.png","/todo4.png","/todo5.png"]
+    imageUrls: ["/todo.png", "/todo2.png", "/todo3.png", "/todo4.png", "/todo5.png"]
+  },
+  {
+    title: "Color Picker App",
+    description: "A Flutter app that generates random colors, shows HEX codes, lets users copy them, save favorites, and share. It includes color history, favorites, and a lock feature to preserve the current color.",
+    techStack: ["Flutter", "Dart"],
+    githubUrl: "https://github.com/axleosi/color-picker.git",
+    demoUrl: "https://colorpickerapp1.web.app/",
+    imageUrls: ["/color1.png", "/color2.png",]
   },
   {
     title: "E-Commerce Website",
@@ -32,7 +40,7 @@ const projects = [
     techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Express JS", "Mongo DB"],
     githubUrl: "https://github.com/axleosi/mitimeth-full.git",
     demoUrl: "https://mitimeth-full.vercel.app/",
-    imageUrls: ["/mitimeth.png","/mitimeth2.png","/mitimeth3.png","/mitimeth4.png","/mitimeth5.png",]
+    imageUrls: ["/mitimeth.png", "/mitimeth2.png", "/mitimeth3.png", "/mitimeth4.png", "/mitimeth5.png",]
   },
   {
     title: "Front end website",
@@ -40,7 +48,7 @@ const projects = [
     techStack: ["Next.js", "CSS", "TypeScript"],
     githubUrl: "https://github.com/axleosi/BFW-website.git",
     demoUrl: "https://bfw-website.vercel.app/",
-    imageUrls: ["/bfw.png","/bfw2.png","/bfw3.png","/bfw4.png","/bfw5.png",]
+    imageUrls: ["/bfw.png", "/bfw2.png", "/bfw3.png", "/bfw4.png", "/bfw5.png",]
   }
 ];
 
