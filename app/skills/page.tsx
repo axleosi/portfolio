@@ -4,7 +4,8 @@ import {
 } from 'react-icons/fa';
 import {
   SiJavascript, SiTypescript, SiTailwindcss, SiMongodb,
-  SiPostgresql, SiNextdotjs, SiExpress, SiFlutter, SiSocketdotio
+  SiPostgresql, SiNextdotjs, SiExpress, SiFlutter, SiSocketdotio,
+  SiFirebase
 } from 'react-icons/si';
 import { IconType } from 'react-icons';
 
@@ -42,6 +43,7 @@ const Skills = () => {
               <SkillItem icon={FaNodeJs} name="Node.js" />
               <SkillItem icon={SiExpress} name="Express.js" />
               <SkillItem icon={SiSocketdotio} name="Socket.IO" />
+              <SkillItem icon={SiFirebase} name="Firebase" />
             </div>
           </div>
 

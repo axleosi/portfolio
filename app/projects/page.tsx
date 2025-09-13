@@ -3,6 +3,14 @@ import ProjectCard from "../components/ProjectCard";
 
 const projects = [
   {
+  title: "Roommate Food Helper",
+  description: "A Flutter + Firebase app that helps roommates coordinate food purchases. When one roommate goes out to buy food, they can notify others instantly. Roommates can then add their food requests in real-time, making group orders simple and organized.",
+  techStack: ["Flutter", "Firebase Auth", "Cloud Firestore", "Firebase Cloud Messaging"],
+  githubUrl: "https://github.com/axleosi/food-helper.git",
+  demoUrl: "https://food-helper-32267.web.app/",
+  imageUrls: ["/foodhelper1.png", "/foodhelper2.png", "/foodhelper5.png", "/foodhelper6.png", "/foodhelper7.png"]
+},
+  {
     title: "Real-Time Chat App",
     description: "A real-time chat application with instant messaging, friend management, and online presence tracking.",
     techStack: ["Flutter", "Express JS", "MongoDB", "Socket.IO", "JWT Auth"],
