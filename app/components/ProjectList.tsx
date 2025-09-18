@@ -32,6 +32,24 @@ const projects = [
   },
   {
     id: 4,
+    title: "Todo App",
+    description: "A responsive full stack todo app with light and dark mode as well as filtering.",
+    techStack: ["Next.js", "Tailwind CSS", "TypeScript", "Express JS", "Mongo DB"],
+    githubUrl: "https://github.com/axleosi/todo-list.git",
+    demoUrl: "https://todo-list1-virid.vercel.app",
+    imageUrls: ["/todo.png", "/todo2.png", "/todo3.png", "/todo4.png", "/todo5.png"]
+  },
+  {
+    id: 5,
+    title: "Decisio App",
+    description: "A fun decision-making app with a spinning wheel, customizable options, and visual highlights for the selected choice. Built with Flutter and deployed on Firebase Hosting.",
+    techStack: ["Flutter", "Dart", "Firebase Hosting"],
+    githubUrl: "https://github.com/axleosi/decisio.git",
+    demoUrl: "https://decisio1.web.app",
+    imageUrls: ["/decisio1.png", "/decisio2.png"]
+  },
+  {
+    id: 6,
     title: "Color Picker App",
     description: "A Flutter app that generates random colors, shows HEX codes, lets users copy them, save favorites, and share. It includes color history, favorites, and a lock feature to preserve the current color.",
     techStack: ["Flutter", "Dart"],
@@ -41,15 +59,7 @@ const projects = [
   },
 
 
-  {
-    id: 5,
-    title: "Todo App",
-    description: "A responsive full stack todo app with light and dark mode as well as filtering.",
-    techStack: ["Next.js", "Tailwind CSS", "TypeScript", "Express JS", "Mongo DB"],
-    githubUrl: "https://github.com/axleosi/todo-list.git",
-    demoUrl: "https://todo-list1-virid.vercel.app",
-    imageUrls: ["/todo.png", "/todo2.png", "/todo3.png", "/todo4.png", "/todo5.png"]
-  },
+
 ];
 
 const ProjectList = () => {

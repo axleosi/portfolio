@@ -3,13 +3,13 @@ import ProjectCard from "../components/ProjectCard";
 
 const projects = [
   {
-  title: "Roommate Food Helper",
-  description: "A Flutter + Firebase app that helps roommates coordinate food purchases. When one roommate goes out to buy food, they can notify others instantly. Roommates can then add their food requests in real-time, making group orders simple and organized.",
-  techStack: ["Flutter", "Firebase Auth", "Cloud Firestore", "Firebase Cloud Messaging"],
-  githubUrl: "https://github.com/axleosi/food-helper.git",
-  demoUrl: "https://food-helper-32267.web.app/",
-  imageUrls: ["/foodhelper1.png", "/foodhelper2.png", "/foodhelper5.png", "/foodhelper6.png", "/foodhelper7.png"]
-},
+    title: "Roommate Food Helper",
+    description: "A Flutter + Firebase app that helps roommates coordinate food purchases. When one roommate goes out to buy food, they can notify others instantly. Roommates can then add their food requests in real-time, making group orders simple and organized.",
+    techStack: ["Flutter", "Firebase Auth", "Cloud Firestore", "Firebase Cloud Messaging"],
+    githubUrl: "https://github.com/axleosi/food-helper.git",
+    demoUrl: "https://food-helper-32267.web.app/",
+    imageUrls: ["/foodhelper1.png", "/foodhelper2.png", "/foodhelper5.png", "/foodhelper6.png", "/foodhelper7.png"]
+  },
   {
     title: "Real-Time Chat App",
     description: "A real-time chat application with instant messaging, friend management, and online presence tracking.",
@@ -35,14 +35,6 @@ const projects = [
     imageUrls: ["/todo.png", "/todo2.png", "/todo3.png", "/todo4.png", "/todo5.png"]
   },
   {
-    title: "Color Picker App",
-    description: "A Flutter app that generates random colors, shows HEX codes, lets users copy them, save favorites, and share. It includes color history, favorites, and a lock feature to preserve the current color.",
-    techStack: ["Flutter", "Dart"],
-    githubUrl: "https://github.com/axleosi/color-picker.git",
-    demoUrl: "https://colorpickerapp1.web.app/",
-    imageUrls: ["/color1.png", "/color2.png",]
-  },
-  {
     title: "E-Commerce Website",
     description: "A responsive full stack user-friendly E-commerce site with an admin panel.",
     techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Express JS", "Mongo DB"],
@@ -50,6 +42,23 @@ const projects = [
     demoUrl: "https://mitimeth-full.vercel.app/",
     imageUrls: ["/mitimeth.png", "/mitimeth2.png", "/mitimeth3.png", "/mitimeth4.png", "/mitimeth5.png",]
   },
+  {
+    title: "Decisio App",
+    description: "A fun decision-making app with a spinning wheel, customizable options, and visual highlights for the selected choice. Built with Flutter and deployed on Firebase Hosting.",
+    techStack: ["Flutter", "Dart", "Firebase Hosting"],
+    githubUrl: "https://github.com/axleosi/decisio.git",
+    demoUrl: "https://decisio1.web.app",
+    imageUrls: ["/decisio1.png", "/decisio2.png"]
+  },
+  {
+    title: "Color Picker App",
+    description: "A Flutter app that generates random colors, shows HEX codes, lets users copy them, save favorites, and share. It includes color history, favorites, and a lock feature to preserve the current color.",
+    techStack: ["Flutter", "Dart"],
+    githubUrl: "https://github.com/axleosi/color-picker.git",
+    demoUrl: "https://colorpickerapp1.web.app/",
+    imageUrls: ["/color1.png", "/color2.png",]
+  },
+
   {
     title: "Front end website",
     description: "A frontend only website that showcases a footwear seller.",
