@@ -11,6 +11,14 @@ const projects = [
     imageUrls: ["/foodhelper1.png", "/foodhelper2.png", "/foodhelper5.png", "/foodhelper6.png", "/foodhelper7.png"]
   },
   {
+  title: "Weather Forecast App",
+  description: "A React + TypeScript weather application that provides real-time weather updates, hourly forecasts, and 7-day predictions for any location. Users can search for locations, toggle between metric and imperial units, and view interactive weather details including temperature, wind speed, humidity, and precipitation.",
+  techStack: ["React", "TypeScript", "Tailwind CSS", "Open-Meteo API", "Axios", "Context API"],
+  githubUrl: "https://github.com/axleosi/weather-app.git",
+  demoUrl: "https://weather-1szg0u1wn-axleosis-projects.vercel.app/",
+  imageUrls: ["/weather1.png", "/weather2.png", "/weather3.png", "/weather4.png", "/weather5.png"]
+},
+  {
     title: "Real-Time Chat App",
     description: "A real-time chat application with instant messaging, friend management, and online presence tracking.",
     techStack: ["Flutter", "Express JS", "MongoDB", "Socket.IO", "JWT Auth"],

@@ -14,6 +14,15 @@ const projects = [
   },
   {
     id: 2,
+    title: "Weather Forecast App",
+    description: "A React + TypeScript weather application that provides real-time weather updates, hourly forecasts, and 7-day predictions for any location. Users can search for locations, toggle between metric and imperial units, and view interactive weather details including temperature, wind speed, humidity, and precipitation.",
+    techStack: ["React", "TypeScript", "Tailwind CSS", "Open-Meteo API", "Axios", "Context API"],
+    githubUrl: "https://github.com/axleosi/weather-app.git",
+    demoUrl: "https://weather-app-tawny-two-m3zog82m1e.vercel.app/",
+    imageUrls: ["/weather1.jpg", "/weather2.jpg", "/weather3.jpg", "/weather4.jpg", "/weather5.jpg"]
+  },
+  {
+    id: 3,
     title: "Real-Time Chat App",
     description: "A real-time chat application with instant messaging, friend management, and online presence tracking.",
     techStack: ["Flutter", "Express JS", "MongoDB", "Socket.IO", "JWT Auth"],
@@ -22,7 +31,7 @@ const projects = [
     imageUrls: ["/chatapp1.png", "/chatapp2.png", "/chatapp3.png", "/chatapp4.png"]
   },
   {
-    id: 3,
+    id: 4,
     title: "E-Commerce Site",
     description: "A responsive user-friendly E-commerce site with an admin panel.",
     techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Express JS", "Mongo DB"],
@@ -31,7 +40,7 @@ const projects = [
     imageUrls: ["/jadedlabel.png", "/jadedlabel2.png", "/jadedlabel3.png", "/jadedlabel4.png", "/jadedlabel5.png", "/jadedlabel6.png", "/jadedlabel7.png",]
   },
   {
-    id: 4,
+    id: 5,
     title: "Todo App",
     description: "A responsive full stack todo app with light and dark mode as well as filtering.",
     techStack: ["Next.js", "Tailwind CSS", "TypeScript", "Express JS", "Mongo DB"],
@@ -40,7 +49,7 @@ const projects = [
     imageUrls: ["/todo.png", "/todo2.png", "/todo3.png", "/todo4.png", "/todo5.png"]
   },
   {
-    id: 5,
+    id: 6,
     title: "Decisio App",
     description: "A fun decision-making app with a spinning wheel, customizable options, and visual highlights for the selected choice. Built with Flutter and deployed on Firebase Hosting.",
     techStack: ["Flutter", "Dart", "Firebase Hosting"],
@@ -49,7 +58,7 @@ const projects = [
     imageUrls: ["/decisio1.png", "/decisio2.png"]
   },
   {
-    id: 6,
+    id: 7,
     title: "Color Picker App",
     description: "A Flutter app that generates random colors, shows HEX codes, lets users copy them, save favorites, and share. It includes color history, favorites, and a lock feature to preserve the current color.",
     techStack: ["Flutter", "Dart"],
