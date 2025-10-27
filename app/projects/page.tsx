@@ -15,8 +15,8 @@ const projects = [
   description: "A React + TypeScript weather application that provides real-time weather updates, hourly forecasts, and 7-day predictions for any location. Users can search for locations, toggle between metric and imperial units, and view interactive weather details including temperature, wind speed, humidity, and precipitation.",
   techStack: ["React", "TypeScript", "Tailwind CSS", "Open-Meteo API", "Axios", "Context API"],
   githubUrl: "https://github.com/axleosi/weather-app.git",
-  demoUrl: "https://weather-1szg0u1wn-axleosis-projects.vercel.app/",
-  imageUrls: ["/weather1.png", "/weather2.png", "/weather3.png", "/weather4.png", "/weather5.png"]
+  demoUrl: "https://weather-app-tawny-two-m3zog82m1e.vercel.app/",
+    imageUrls: ["/weather1.jpg", "/weather2.jpg", "/weather3.jpg", "/weather4.jpg", "/weather5.jpg"]
 },
   {
     title: "Real-Time Chat App",
