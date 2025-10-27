@@ -35,6 +35,14 @@ const projects = [
     imageUrls: ["/jadedlabel.png", "/jadedlabel2.png", "/jadedlabel3.png", "/jadedlabel4.png", "/jadedlabel5.png", "/jadedlabel6.png", "/jadedlabel7.png",]
   },
   {
+    title: "Sneakers E-Commerce Store",
+    description: "A modern React e-commerce app for sneaker collections. Users can browse categories like Men, Women, and Collections, add products to cart, and view their cart in a responsive dropdown. The layout is fully responsive with dynamic routing and clean UI interactions.",
+    techStack: ["React", "React Router", "CSS Modules", "Vercel"],
+    githubUrl: "https://github.com/axleosi/e-commerce.git",
+    demoUrl: "https://e-commerce-blond-seven-31.vercel.app/",
+    imageUrls: ["/sneakers1.jpg", "/sneakers2.jpg", "/sneakers3.jpg", "/sneakers4.jpg"]
+  },
+  {
     title: "Todo App",
     description: "A responsive full stack todo app with light and dark mode as well as filtering.",
     techStack: ["Next.js", "Tailwind CSS", "TypeScript", "Express JS", "Mongo DB"],

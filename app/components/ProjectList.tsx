@@ -41,6 +41,16 @@ const projects = [
   },
   {
     id: 5,
+    title: "Sneakers E-Commerce Store",
+    description: "A modern React e-commerce app for sneaker collections. Users can browse categories like Men, Women, and Collections, add products to cart, and view their cart in a responsive dropdown. The layout is fully responsive with dynamic routing and clean UI interactions.",
+    techStack: ["React", "React Router", "CSS Modules", "Vercel"],
+    githubUrl: "https://github.com/axleosi/e-commerce.git",
+    demoUrl: "https://e-commerce-blond-seven-31.vercel.app/",
+    imageUrls: ["/sneakers1.jpg", "/sneakers2.jpg", "/sneakers3.jpg", "/sneakers4.jpg"]
+  },
+
+  {
+    id: 6,
     title: "Todo App",
     description: "A responsive full stack todo app with light and dark mode as well as filtering.",
     techStack: ["Next.js", "Tailwind CSS", "TypeScript", "Express JS", "Mongo DB"],
@@ -49,7 +59,7 @@ const projects = [
     imageUrls: ["/todo.png", "/todo2.png", "/todo3.png", "/todo4.png", "/todo5.png"]
   },
   {
-    id: 6,
+    id: 7,
     title: "Decisio App",
     description: "A fun decision-making app with a spinning wheel, customizable options, and visual highlights for the selected choice. Built with Flutter and deployed on Firebase Hosting.",
     techStack: ["Flutter", "Dart", "Firebase Hosting"],
@@ -58,7 +68,7 @@ const projects = [
     imageUrls: ["/decisio1.png", "/decisio2.png"]
   },
   {
-    id: 7,
+    id: 8,
     title: "Color Picker App",
     description: "A Flutter app that generates random colors, shows HEX codes, lets users copy them, save favorites, and share. It includes color history, favorites, and a lock feature to preserve the current color.",
     techStack: ["Flutter", "Dart"],
