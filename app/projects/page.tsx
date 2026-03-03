@@ -3,28 +3,19 @@ import ProjectCard from "../components/ProjectCard";
 
 const projects = [
   {
-    title: "Roommate Food Helper",
-    description: "A Flutter + Firebase app that helps roommates coordinate food purchases. When one roommate goes out to buy food, they can notify others instantly. Roommates can then add their food requests in real-time, making group orders simple and organized.",
-    techStack: ["Flutter", "Firebase Auth", "Cloud Firestore", "Firebase Cloud Messaging"],
-    githubUrl: "https://github.com/axleosi/food-helper.git",
-    demoUrl: "https://food-helper-32267.web.app/",
-    imageUrls: ["/foodhelper1.png", "/foodhelper2.png", "/foodhelper5.png", "/foodhelper6.png", "/foodhelper7.png"]
+    title: "Tramango",
+    description: "A web platform that allows users to plan and book trips seamlessly. Tramango integrates real-time travel information, personalized itineraries, and collaborative trip planning to make travel management easy and fun.",
+    techStack: ["React", "Node.js", "Express", "MongoDB", "REST APIs"],
+    url: "https://tramango.com",
+    imageUrls: ["/tramango1.png", "/tramango2.png", "/tramango3.png", "/tramango4.png", "/tramango5.png", "/tramango6.png"]
   },
+
   {
-  title: "Weather Forecast App",
-  description: "A React + TypeScript weather application that provides real-time weather updates, hourly forecasts, and 7-day predictions for any location. Users can search for locations, toggle between metric and imperial units, and view interactive weather details including temperature, wind speed, humidity, and precipitation.",
-  techStack: ["React", "TypeScript", "Tailwind CSS", "Open-Meteo API", "Axios", "Context API"],
-  githubUrl: "https://github.com/axleosi/weather-app.git",
-  demoUrl: "https://weather-app-tawny-two-m3zog82m1e.vercel.app/",
-    imageUrls: ["/weather1.jpg", "/weather2.jpg", "/weather3.jpg", "/weather4.jpg", "/weather5.jpg"]
-},
-  {
-    title: "Real-Time Chat App",
-    description: "A real-time chat application with instant messaging, friend management, and online presence tracking.",
-    techStack: ["Flutter", "Express JS", "MongoDB", "Socket.IO", "JWT Auth"],
-    githubUrl: "https://github.com/axleosi/chatroom-app",
-    demoUrl: "https://chatroom-app1.web.app/",
-    imageUrls: ["/chatapp1.png", "/chatapp2.png", "/chatapp3.png", "/chatapp4.png"]
+    title: "StakFlows",
+    description: "A productivity tool that helps teams manage projects and workflows efficiently. StakFlows provides task boards, real-time collaboration, notifications, and analytics to improve team performance and transparency.",
+    techStack: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Tailwind CSS"],
+    url: "https://docs.stackflows.com/stackflows",
+    imageUrls: ["/stakflows1.png", "/stakflows2.png", "/stakflows3.png"]
   },
   {
     title: "E-Commerce Website",
@@ -33,6 +24,30 @@ const projects = [
     githubUrl: "https://github.com/axleosi/jaded-label.git",
     demoUrl: "https://jaded-label.vercel.app/",
     imageUrls: ["/jadedlabel.png", "/jadedlabel2.png", "/jadedlabel3.png", "/jadedlabel4.png", "/jadedlabel5.png", "/jadedlabel6.png", "/jadedlabel7.png",]
+  },
+  {
+    title: "Weather Forecast App",
+    description: "A React + TypeScript weather application that provides real-time weather updates, hourly forecasts, and 7-day predictions for any location. Users can search for locations, toggle between metric and imperial units, and view interactive weather details including temperature, wind speed, humidity, and precipitation.",
+    techStack: ["React", "TypeScript", "Tailwind CSS", "Open-Meteo API", "Axios", "Context API"],
+    githubUrl: "https://github.com/axleosi/weather-app.git",
+    demoUrl: "https://weather-app-tawny-two-m3zog82m1e.vercel.app/",
+    imageUrls: ["/weather1.jpg", "/weather2.jpg", "/weather3.jpg", "/weather4.jpg", "/weather5.jpg"]
+  },
+  {
+    title: "Roommate Food Helper",
+    description: "A Flutter + Firebase app that helps roommates coordinate food purchases. When one roommate goes out to buy food, they can notify others instantly. Roommates can then add their food requests in real-time, making group orders simple and organized.",
+    techStack: ["Flutter", "Firebase Auth", "Cloud Firestore", "Firebase Cloud Messaging"],
+    githubUrl: "https://github.com/axleosi/food-helper.git",
+    demoUrl: "https://food-helper-32267.web.app/",
+    imageUrls: ["/foodhelper1.png", "/foodhelper2.png", "/foodhelper5.png", "/foodhelper6.png", "/foodhelper7.png"]
+  },
+  {
+    title: "Real-Time Chat App",
+    description: "A real-time chat application with instant messaging, friend management, and online presence tracking.",
+    techStack: ["Flutter", "Express JS", "MongoDB", "Socket.IO", "JWT Auth"],
+    githubUrl: "https://github.com/axleosi/chatroom-app",
+    demoUrl: "https://chatroom-app1.web.app/",
+    imageUrls: ["/chatapp1.png", "/chatapp2.png", "/chatapp3.png", "/chatapp4.png"]
   },
   {
     title: "Sneakers E-Commerce Store",

@@ -8,8 +8,9 @@ interface ProjectCardProps {
   title: string;
   description: string;
   techStack: string[];
-  githubUrl: string;
+  githubUrl?: string;
   demoUrl?: string;
+  url?: string; // alternative single link
   imageUrls: string[];
 }
 
@@ -72,9 +73,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                 <button
                   key={index}
                   onClick={() => handleDotClick(index)}
-                  className={`w-3 h-3 rounded-full transition-colors ${
-                    current === index ? "bg-blue-600" : "bg-gray-300"
-                  }`}
+                  className={`w-3 h-3 rounded-full transition-colors ${current === index ? "bg-blue-600" : "bg-gray-300"
+                    }`}
                   aria-label={`Go to image ${index + 1}`}
                 />
               ))}
@@ -97,15 +97,18 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           </p>
         </div>
 
-        <div className="flex gap-4 mt-4">
-          <a
-            href={githubUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-4 py-2 bg-blue-600 text-white text-sm rounded hover:bg-blue-700 transition"
-          >
-            GitHub
-          </a>
+        <div className="flex gap-4 mt-4 flex-wrap">
+          {githubUrl && (
+            <a
+              href={githubUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2 bg-blue-600 text-white text-sm rounded hover:bg-blue-700 transition"
+            >
+              GitHub
+            </a>
+          )}
+
           {demoUrl && (
             <a
               href={demoUrl}
@@ -114,6 +117,17 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
               className="px-4 py-2 bg-green-600 text-white text-sm rounded hover:bg-green-700 transition"
             >
               Live Demo
+            </a>
+          )}
+
+          {url && !demoUrl && (
+            <a
+              href={url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2 bg-purple-600 text-white text-sm rounded hover:bg-purple-700 transition"
+            >
+              Visit Project
             </a>
           )}
         </div>

@@ -5,33 +5,23 @@ import ProjectCard from "./ProjectCard";
 const projects = [
   {
     id: 1,
-    title: "Roommate Food Helper",
-    description: "A Flutter + Firebase app that helps roommates coordinate food purchases. When one roommate goes out to buy food, they can notify others instantly. Roommates can then add their food requests in real-time, making group orders simple and organized.",
-    techStack: ["Flutter", "Firebase Auth", "Cloud Firestore", "Firebase Cloud Messaging"],
-    githubUrl: "https://github.com/axleosi/food-helper.git",
-    demoUrl: "https://food-helper-32267.web.app/",
-    imageUrls: ["/foodhelper1.png", "/foodhelper2.png", "/foodhelper5.png", "/foodhelper6.png", "/foodhelper7.png"]
+    title: "Tramango",
+    description: "A web platform that allows users to plan and book trips seamlessly. Tramango integrates real-time travel information, personalized itineraries, and collaborative trip planning to make travel management easy and fun.",
+    techStack: ["React", "Node.js", "Express", "MongoDB", "REST APIs"],
+    url: "https://tramango.com",
+    imageUrls: ["/tramango1.png", "/tramango2.png", "/tramango3.png", "/tramango4.png", "/tramango5.png", "/tramango6.png"]
   },
+
   {
     id: 2,
-    title: "Weather Forecast App",
-    description: "A React + TypeScript weather application that provides real-time weather updates, hourly forecasts, and 7-day predictions for any location. Users can search for locations, toggle between metric and imperial units, and view interactive weather details including temperature, wind speed, humidity, and precipitation.",
-    techStack: ["React", "TypeScript", "Tailwind CSS", "Open-Meteo API", "Axios", "Context API"],
-    githubUrl: "https://github.com/axleosi/weather-app.git",
-    demoUrl: "https://weather-app-tawny-two-m3zog82m1e.vercel.app/",
-    imageUrls: ["/weather1.jpg", "/weather2.jpg", "/weather3.jpg", "/weather4.jpg", "/weather5.jpg"]
+    title: "StakFlows",
+    description: "A productivity tool that helps teams manage projects and workflows efficiently. StakFlows provides task boards, real-time collaboration, notifications, and analytics to improve team performance and transparency.",
+    techStack: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Tailwind CSS"],
+    url: "https://docs.stackflows.com/stackflows",
+    imageUrls: ["/stakflows1.png", "/stakflows2.png", "/stakflows3.png"]
   },
   {
     id: 3,
-    title: "Real-Time Chat App",
-    description: "A real-time chat application with instant messaging, friend management, and online presence tracking.",
-    techStack: ["Flutter", "Express JS", "MongoDB", "Socket.IO", "JWT Auth"],
-    githubUrl: "https://github.com/axleosi/chatroom-app",
-    demoUrl: "https://chatroom-app1.web.app/",
-    imageUrls: ["/chatapp1.png", "/chatapp2.png", "/chatapp3.png", "/chatapp4.png"]
-  },
-  {
-    id: 4,
     title: "E-Commerce Site",
     description: "A responsive user-friendly E-commerce site with an admin panel.",
     techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Express JS", "Mongo DB"],
@@ -40,7 +30,35 @@ const projects = [
     imageUrls: ["/jadedlabel.png", "/jadedlabel2.png", "/jadedlabel3.png", "/jadedlabel4.png", "/jadedlabel5.png", "/jadedlabel6.png", "/jadedlabel7.png",]
   },
   {
+    id: 4,
+    title: "Weather Forecast App",
+    description: "A React + TypeScript weather application that provides real-time weather updates, hourly forecasts, and 7-day predictions for any location. Users can search for locations, toggle between metric and imperial units, and view interactive weather details including temperature, wind speed, humidity, and precipitation.",
+    techStack: ["React", "TypeScript", "Tailwind CSS", "Open-Meteo API", "Axios", "Context API"],
+    githubUrl: "https://github.com/axleosi/weather-app.git",
+    demoUrl: "https://weather-app-tawny-two-m3zog82m1e.vercel.app/",
+    imageUrls: ["/weather1.jpg", "/weather2.jpg", "/weather3.jpg", "/weather4.jpg", "/weather5.jpg"]
+  },
+  {
     id: 5,
+    title: "Roommate Food Helper",
+    description: "A Flutter + Firebase app that helps roommates coordinate food purchases. When one roommate goes out to buy food, they can notify others instantly. Roommates can then add their food requests in real-time, making group orders simple and organized.",
+    techStack: ["Flutter", "Firebase Auth", "Cloud Firestore", "Firebase Cloud Messaging"],
+    githubUrl: "https://github.com/axleosi/food-helper.git",
+    demoUrl: "https://food-helper-32267.web.app/",
+    imageUrls: ["/foodhelper1.png", "/foodhelper2.png", "/foodhelper5.png", "/foodhelper6.png", "/foodhelper7.png"]
+  },
+  {
+    id: 6,
+    title: "Real-Time Chat App",
+    description: "A real-time chat application with instant messaging, friend management, and online presence tracking.",
+    techStack: ["Flutter", "Express JS", "MongoDB", "Socket.IO", "JWT Auth"],
+    githubUrl: "https://github.com/axleosi/chatroom-app",
+    demoUrl: "https://chatroom-app1.web.app/",
+    imageUrls: ["/chatapp1.png", "/chatapp2.png", "/chatapp3.png", "/chatapp4.png"]
+  },
+
+  {
+    id: 7,
     title: "Sneakers E-Commerce Store",
     description: "A modern React e-commerce app for sneaker collections. Users can browse categories like Men, Women, and Collections, add products to cart, and view their cart in a responsive dropdown. The layout is fully responsive with dynamic routing and clean UI interactions.",
     techStack: ["React", "React Router", "CSS Modules", "Vercel"],
@@ -50,7 +68,7 @@ const projects = [
   },
 
   {
-    id: 6,
+    id: 8,
     title: "Todo App",
     description: "A responsive full stack todo app with light and dark mode as well as filtering.",
     techStack: ["Next.js", "Tailwind CSS", "TypeScript", "Express JS", "Mongo DB"],
@@ -59,7 +77,7 @@ const projects = [
     imageUrls: ["/todo.png", "/todo2.png", "/todo3.png", "/todo4.png", "/todo5.png"]
   },
   {
-    id: 7,
+    id: 9,
     title: "Decisio App",
     description: "A fun decision-making app with a spinning wheel, customizable options, and visual highlights for the selected choice. Built with Flutter and deployed on Firebase Hosting.",
     techStack: ["Flutter", "Dart", "Firebase Hosting"],
@@ -68,7 +86,7 @@ const projects = [
     imageUrls: ["/decisio1.png", "/decisio2.png"]
   },
   {
-    id: 8,
+    id: 10,
     title: "Color Picker App",
     description: "A Flutter app that generates random colors, shows HEX codes, lets users copy them, save favorites, and share. It includes color history, favorites, and a lock feature to preserve the current color.",
     techStack: ["Flutter", "Dart"],
