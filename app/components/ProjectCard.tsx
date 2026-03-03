@@ -21,6 +21,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   githubUrl,
   demoUrl,
   imageUrls,
+  url
 }) => {
   const [current, setCurrent] = useState(0);
   const intervalRef = useRef<NodeJS.Timeout | null>(null);
