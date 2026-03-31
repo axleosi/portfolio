@@ -11,11 +11,44 @@ const projects = [
   },
 
   {
-    title: "StakFlows",
-    description: "A productivity tool that helps teams manage projects and workflows efficiently. StakFlows provides task boards, real-time collaboration, notifications, and analytics to improve team performance and transparency.",
-    techStack: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Tailwind CSS"],
-    url: "https://docs.stackflows.com/stackflows",
-    imageUrls: ["/stakflows1.png", "/stakflows2.png", "/stakflows3.png"]
+    title: "CamberFarms Africa",
+    description: "A modern agricultural platform designed to showcase farm products, services, and sustainable farming practices. Built with a scalable full-stack architecture, the platform delivers a fast, responsive, and SEO-optimized user experience. Implemented advanced internationalization using i18n routing and dynamic content rendering, enabling seamless access in 10 languages. Optimized performance with server-side rendering and efficient API handling, while ensuring clean UI/UX across devices.",
+    techStack: [
+      "Next.js",
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "next-intl (i18n)",
+      "REST APIs"
+    ],
+    url: "https://camberfarms.org",
+    imageUrls: [
+      "/camber1.png",
+      "/camber2.png",
+      "/camber3.png",
+      "/camber4.png"
+    ]
+  },
+  {
+    title: "CamberFarm Exports",
+    description: "A B2B export marketplace platform designed to connect suppliers, manufacturers, and international buyers. The platform enables businesses to list products, discover trade partners, and manage export operations seamlessly. Built with a scalable architecture, it supports secure transactions, global accessibility, and streamlined trade workflows including product listings, partner discovery, and communication between buyers and sellers. Implemented responsive UI, optimized API performance, and structured data handling for efficient large-scale trade interactions.",
+    techStack: [
+      "Next.js",
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "REST APIs",
+      "Authentication & Authorization"
+    ],
+    url: "https://camberexports.com",
+    imageUrls: [
+      "/export.png",
+      "/export2.png",
+      "/export3.png",
+      "/export4.png"
+    ]
   },
   {
     title: "E-Commerce Website",

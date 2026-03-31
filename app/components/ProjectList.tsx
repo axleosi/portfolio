@@ -14,14 +14,48 @@ const projects = [
 
   {
     id: 2,
-    title: "StakFlows",
-    description: "A productivity tool that helps teams manage projects and workflows efficiently. StakFlows provides task boards, real-time collaboration, notifications, and analytics to improve team performance and transparency.",
-    techStack: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Tailwind CSS"],
-    url: "https://docs.stackflows.com/stackflows",
-    imageUrls: ["/stakflows1.png", "/stakflows2.png", "/stakflows3.png"]
+    title: "CamberFarms Africa",
+    description: "A modern agricultural platform designed to showcase farm products, services, and sustainable farming practices. Built with a scalable full-stack architecture, the platform delivers a fast, responsive, and SEO-optimized user experience. Implemented advanced internationalization using i18n routing and dynamic content rendering, enabling seamless access in 10 languages. Optimized performance with server-side rendering and efficient API handling, while ensuring clean UI/UX across devices.",
+    techStack: [
+      "Next.js",
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "next-intl (i18n)",
+      "REST APIs"
+    ],
+    url: "https://camberfarms.org",
+    imageUrls: [
+      "/camber1.png",
+      "/camber2.png",
+      "/camber3.png",
+      "/camber4.png"
+    ]
   },
   {
     id: 3,
+    title: "CamberFarm Exports",
+    description: "A B2B export marketplace platform designed to connect suppliers, manufacturers, and international buyers. The platform enables businesses to list products, discover trade partners, and manage export operations seamlessly. Built with a scalable architecture, it supports secure transactions, global accessibility, and streamlined trade workflows including product listings, partner discovery, and communication between buyers and sellers. Implemented responsive UI, optimized API performance, and structured data handling for efficient large-scale trade interactions.",
+    techStack: [
+      "Next.js",
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "REST APIs",
+      "Authentication & Authorization"
+    ],
+    url: "https://camberexports.com",
+    imageUrls: [
+      "/export.png",
+      "/export2.png",
+      "/export3.png",
+      "/export4.png"
+    ]
+  },
+  {
+    id: 4,
     title: "E-Commerce Site",
     description: "A responsive user-friendly E-commerce site with an admin panel.",
     techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Express JS", "Mongo DB"],
@@ -30,7 +64,7 @@ const projects = [
     imageUrls: ["/jadedlabel.png", "/jadedlabel2.png", "/jadedlabel3.png", "/jadedlabel4.png", "/jadedlabel5.png", "/jadedlabel6.png", "/jadedlabel7.png",]
   },
   {
-    id: 4,
+    id: 5,
     title: "Weather Forecast App",
     description: "A React + TypeScript weather application that provides real-time weather updates, hourly forecasts, and 7-day predictions for any location. Users can search for locations, toggle between metric and imperial units, and view interactive weather details including temperature, wind speed, humidity, and precipitation.",
     techStack: ["React", "TypeScript", "Tailwind CSS", "Open-Meteo API", "Axios", "Context API"],
@@ -39,7 +73,7 @@ const projects = [
     imageUrls: ["/weather1.jpg", "/weather2.jpg", "/weather3.jpg", "/weather4.jpg", "/weather5.jpg"]
   },
   {
-    id: 5,
+    id: 6,
     title: "Roommate Food Helper",
     description: "A Flutter + Firebase app that helps roommates coordinate food purchases. When one roommate goes out to buy food, they can notify others instantly. Roommates can then add their food requests in real-time, making group orders simple and organized.",
     techStack: ["Flutter", "Firebase Auth", "Cloud Firestore", "Firebase Cloud Messaging"],
@@ -48,7 +82,7 @@ const projects = [
     imageUrls: ["/foodhelper1.png", "/foodhelper2.png", "/foodhelper5.png", "/foodhelper6.png", "/foodhelper7.png"]
   },
   {
-    id: 6,
+    id: 7,
     title: "Real-Time Chat App",
     description: "A real-time chat application with instant messaging, friend management, and online presence tracking.",
     techStack: ["Flutter", "Express JS", "MongoDB", "Socket.IO", "JWT Auth"],
@@ -58,7 +92,7 @@ const projects = [
   },
 
   {
-    id: 7,
+    id: 8,
     title: "Sneakers E-Commerce Store",
     description: "A modern React e-commerce app for sneaker collections. Users can browse categories like Men, Women, and Collections, add products to cart, and view their cart in a responsive dropdown. The layout is fully responsive with dynamic routing and clean UI interactions.",
     techStack: ["React", "React Router", "CSS Modules", "Vercel"],
@@ -68,7 +102,7 @@ const projects = [
   },
 
   {
-    id: 8,
+    id: 9,
     title: "Todo App",
     description: "A responsive full stack todo app with light and dark mode as well as filtering.",
     techStack: ["Next.js", "Tailwind CSS", "TypeScript", "Express JS", "Mongo DB"],
@@ -77,7 +111,7 @@ const projects = [
     imageUrls: ["/todo.png", "/todo2.png", "/todo3.png", "/todo4.png", "/todo5.png"]
   },
   {
-    id: 9,
+    id: 10,
     title: "Decisio App",
     description: "A fun decision-making app with a spinning wheel, customizable options, and visual highlights for the selected choice. Built with Flutter and deployed on Firebase Hosting.",
     techStack: ["Flutter", "Dart", "Firebase Hosting"],
@@ -86,7 +120,7 @@ const projects = [
     imageUrls: ["/decisio1.png", "/decisio2.png"]
   },
   {
-    id: 10,
+    id: 11,
     title: "Color Picker App",
     description: "A Flutter app that generates random colors, shows HEX codes, lets users copy them, save favorites, and share. It includes color history, favorites, and a lock feature to preserve the current color.",
     techStack: ["Flutter", "Dart"],
